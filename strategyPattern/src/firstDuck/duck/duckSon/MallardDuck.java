@@ -24,7 +24,9 @@ public class MallardDuck extends Duck {
      * @date 2021/01/13 23:35
      */
     public MallardDuck() {
+        /* 绿头鸭调用Quack类处理正真的呱呱叫 */
         super.iQuqBehavior = new Quack();
+        /* 绿头鸭调用FlyWithWings类处理正真的飞行 */
         super.iFlyBehavior = new FlyWithWings();
     }
 

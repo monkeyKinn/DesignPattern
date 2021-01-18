@@ -7,9 +7,9 @@ import firstDuck.behavior.IQuackBehavior;
  * 鸭子父类(抽象)
  */
 public abstract class Duck {
-    /** 飞的行为 */
+    /** 飞的行为 定义为接口,在运行时,持有特定行为的引用*/
     protected IFlyBehavior iFlyBehavior;
-    /** 叫的行为 */
+    /** 叫的行为 也是被定义为接口*/
     protected IQuackBehavior iQuqBehavior;
 
 

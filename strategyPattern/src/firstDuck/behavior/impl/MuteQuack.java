@@ -3,7 +3,7 @@ package firstDuck.behavior.impl;
 import firstDuck.behavior.IQuackBehavior;
 
 /**
- * 哑巴鸭
+ * 哑巴鸭不会叫
  *
  * @author 金聖聰
  * @version v1.0
