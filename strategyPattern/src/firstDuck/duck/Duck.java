@@ -12,6 +12,31 @@ public abstract class Duck {
     /** 叫的行为 也是被定义为接口*/
     protected IQuackBehavior iQuqBehavior;
 
+    /**
+     * 新增飞行的setter方法
+     * @param iFlyBehavior 飞的行为
+     * @return void
+     * @author 金聖聰
+     * @email jinshengcong@163.com
+     * @version v1.0
+     * @date 2021/01/18 23:50
+     */
+    public void setiFlyBehavior(IFlyBehavior iFlyBehavior) {
+        this.iFlyBehavior = iFlyBehavior;
+    }
+
+    /**
+     * 新增叫的setter方法
+     * @param iQuqBehavior 叫的行为
+     * @return void
+     * @author 金聖聰
+     * @email jinshengcong@163.com
+     * @version v1.0
+     * @date 2021/01/18 23:51
+     */
+    public void setiQuqBehavior(IQuackBehavior iQuqBehavior) {
+        this.iQuqBehavior = iQuqBehavior;
+    }
 
     public Duck() {
     }
