@@ -20,6 +20,6 @@ public class WeatherStation {
         new CurrentConditionsDisplay(weatherData);
         // 3.更新气象数据,观察布告板是否更新
         weatherData.setMeasurements(36.7F,10F,100F);
-        weatherData.setMeasurements(16.7F,100F,0F);
+        weatherData.setMeasurements(99.7F,100F,0F);
     }
 }

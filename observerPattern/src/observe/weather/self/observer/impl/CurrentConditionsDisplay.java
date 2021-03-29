@@ -3,7 +3,6 @@ package observe.weather.self.observer.impl;
 import observe.weather.self.display.DisplayElement;
 import observe.weather.self.observer.Observer;
 import observe.weather.self.subject.Subject;
-import observe.weather.self.subject.impl.WeatherData;
 
 /**
  * 当前状况显示 布告板
@@ -20,6 +19,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float humidity;
     /** 气压 */
     private float pressure;
+
     /** 天气数据,类型为WeatherData的接口类 */
     private Subject weatherData;
 
